@@ -1,0 +1,757 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Jajan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "M-01",
+      "nama": "Nasi Kucing",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "nasi_kucing.webp",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "M-02",
+      "nama": "Nasi bakar",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "nasi_bakar.webp",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "M-03",
+      "nama": "Sate Usus",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "sate_usus.webp",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "M-04",
+      "nama": "Sate Telur",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "sate_telur.webp",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "M-05",
+      "nama": "Donat",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "donat.webp",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "M-06",
+      "nama": "Es Teh",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "es_teh.webp",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "M-07",
+      "nama": "Susu Jahe",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "susu_jahe.webp",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "M-08",
+      "nama": "Kopi",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "kopi.webp",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "M-09",
+      "nama": "Keripik",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "keripik.webp",
+      "category": {
+        "id": 3,
+        "nama": "Jajan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "M-10",
+      "nama": "Kacang",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "kacang.webp",
+      "category": {
+        "id": 3,
+        "nama": "Jajan"
+      }
+    }
+  ],
+  "keranjangs": [
+    {
+      "jumlah": 1,
+      "total_harga": 2000,
+      "product": {
+        "id": 1,
+        "kode": "M-01",
+        "nama": "Nasi Kucing",
+        "harga": 2000,
+        "is_ready": true,
+        "gambar": "nasi_kucing.webp",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 2000,
+      "product": {
+        "id": 5,
+        "kode": "M-05",
+        "nama": "Donat",
+        "harga": 2000,
+        "is_ready": true,
+        "gambar": "donat.webp",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 2
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 2000,
+      "product": {
+        "id": 3,
+        "kode": "M-03",
+        "nama": "Sate Usus",
+        "harga": 2000,
+        "is_ready": true,
+        "gambar": "sate_usus.webp",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 3
+    }
+  ],
+  "pesanans": [
+    {
+      "totalbayar": 18000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 3,
+            "kode": "M-03",
+            "nama": "Sate Usus",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_usus.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 2,
+            "kode": "M-02",
+            "nama": "Nasi bakar",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "nasi_bakar.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 6,
+            "kode": "M-06",
+            "nama": "Es Teh",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "es_teh.webp",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 6
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 8,
+            "kode": "M-08",
+            "nama": "Kopi",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "kopi.webp",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 7
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 7,
+            "kode": "M-07",
+            "nama": "Susu Jahe",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "susu_jahe.webp",
+            "category": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 8
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 9,
+            "kode": "M-09",
+            "nama": "Keripik",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "keripik.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 9
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 10,
+            "kode": "M-10",
+            "nama": "Kacang",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "kacang.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 10
+        }
+      ],
+      "id": 1
+    },
+    {
+      "totalbayar": 2000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 9,
+            "kode": "M-09",
+            "nama": "Keripik",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "keripik.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 9
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 10,
+            "kode": "M-10",
+            "nama": "Kacang",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "kacang.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 10
+        }
+      ],
+      "id": 2
+    },
+    {
+      "totalbayar": 12000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 9,
+            "kode": "M-09",
+            "nama": "Keripik",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "keripik.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 9
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 10,
+            "kode": "M-10",
+            "nama": "Kacang",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "kacang.webp",
+            "category": {
+              "id": 3,
+              "nama": "Jajan"
+            }
+          },
+          "id": 10
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 11
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 2,
+            "kode": "M-02",
+            "nama": "Nasi bakar",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "nasi_bakar.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 12
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 3,
+            "kode": "M-03",
+            "nama": "Sate Usus",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_usus.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 13
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 4,
+            "kode": "M-04",
+            "nama": "Sate Telur",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_telur.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 14
+        }
+      ],
+      "id": 3
+    },
+    {
+      "totalbayar": 6000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 4,
+            "kode": "M-04",
+            "nama": "Sate Telur",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_telur.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 3,
+            "kode": "M-03",
+            "nama": "Sate Usus",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_usus.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "totalbayar": 2000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "totalbayar": 6000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 2,
+            "kode": "M-02",
+            "nama": "Nasi bakar",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "nasi_bakar.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 6
+    },
+    {
+      "totalbayar": 8000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 2,
+            "kode": "M-02",
+            "nama": "Nasi bakar",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "nasi_bakar.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 3,
+            "kode": "M-03",
+            "nama": "Sate Usus",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_usus.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 7
+    },
+    {
+      "totalbayar": 8000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 2,
+            "kode": "M-02",
+            "nama": "Nasi bakar",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "nasi_bakar.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 5,
+            "kode": "M-05",
+            "nama": "Donat",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "donat.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 4,
+            "kode": "M-04",
+            "nama": "Sate Telur",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_telur.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 8
+    },
+    {
+      "totalbayar": 6000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 3,
+            "kode": "M-03",
+            "nama": "Sate Usus",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_usus.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 4,
+            "kode": "M-04",
+            "nama": "Sate Telur",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "sate_telur.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 2000,
+          "product": {
+            "id": 1,
+            "kode": "M-01",
+            "nama": "Nasi Kucing",
+            "harga": 2000,
+            "is_ready": true,
+            "gambar": "nasi_kucing.webp",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 9
+    }
+  ]
+}
